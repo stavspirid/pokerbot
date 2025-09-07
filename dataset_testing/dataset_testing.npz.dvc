@@ -1,0 +1,5 @@
+outs:
+- md5: c2d10bc5c7ae41f479982106be3be4f1
+  size: 8197078
+  hash: md5
+  path: dataset_testing.npz

@@ -1,0 +1,6 @@
+Date,Dataset,Model,Outcome details and parameters,comments
+24.10.20 11:44,data_example.csv,model_example.pkl,"Accuracy = 0.65, Recall = 0.32, param_1 = 1.45","Bad model, wouldn't recommend to use in final implementation"
+23.10.24,dataset_4ranks_15000.npz,model_example.keras,"great performance up to noise 0.7 and rotation +-15 degrees", "Perfect performance both for 3 and 4 rank local games"
+24.10.24,dataset_train_4_15000_08.npz,model_high_noise.keras,"great performance up to noise 0.8 and rotation +-15 degrees", "Perfect performance both for 3 and 4 rank local games, better performance for higher noise"
+24.10.25,local server,rl_model_4_card_eps-99_games1000.pkl,"epsilon_decay=0.99, number of games = 1000","evaluation results: 80% winrate"
+24.10.25,local server,rl_model_4_card_eps-98_games250.pkl,"epsilon_decay=0.98, number of games = 250 MISTAKE:model trained with 3 rank image recognition","evaluation results: 20% winrate"

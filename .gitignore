@@ -1,0 +1,25 @@
+.vscode/
+venv/
+.venv/
+db.sqlite3
+.ipynb_checkpoints
+.pytest_cache
+**/.DS_Store
+**/__pycache__
+variables/
+# We didn't exclude .plk files because to train the RL models it takes a lot of time,
+# but the size of the file is small
+# *.pkl
+*.h5
+*.html
+.python-version
+environment*.yml
+requirements*.txt
+*dias*.py
+dataset/*.png
+dataset_testing/*.png
+t_dataset/*
+t_dataset_testing/*
+manual*.py
+dataset_testing.npz
+token_key.txt
